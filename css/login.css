@@ -1,0 +1,22 @@
+
+.form-login {
+width: 360px;
+background-color: white;
+margin: auto;
+margin-top: ;
+border-radius: 10px;
+-webkit-box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+-moz-box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+}
+.form-login-heading {
+	background-color: #3BC3FF;
+	width: 100%;
+	color: white;
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.login-wrap {
+	padding: 3%;
+}

@@ -1,0 +1,6 @@
+/*Inserta tu Codigo Responsive*/
+@media (min-width: 767px) {
+	.black-bg {
+    background-color: red !important;
+	}
+}

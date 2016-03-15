@@ -1,0 +1,230 @@
+ /*..................Fin.De.Menu.................*//*No tocar*/
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+/*.............................................................*/
+section#container {
+	width: 100%;
+}
+section.wrapper {
+	width: 100%;
+}
+.container {
+	width: 100% !important;
+}
+/*...................Inicio.De.Menu...................*/
+.black-bg {
+	height: 70px;
+	background-color: #0B1B2E;
+	font-size: 15px;
+	color: white !important;
+	/*padding: 20px 10px;*/
+}
+.sidebar-toggle-box {
+	float: left;
+	margin: 20px 10px;
+	font-size: 20px;
+}
+.logo {
+	margin: 20px 10px;
+	font-size: 20px;
+	float: left;
+}
+.hidden-xs {
+	
+}
+.visible-xs {
+	
+}
+.top-menu {
+	float: right;
+	margin: 6px 15px;
+}
+.logout {
+	color: white;
+	border-radius: 7px;
+	width: 100%;
+}
+/*.........................Menu lateral Izquierda*/
+.black-bg {
+    border: 1px solid #610B5E;
+    background-color: #0B1B2E;
+    font-size: 15px;
+    color: white !important;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+#main-content {
+    margin-left: 210px;
+}
+#sidebar {
+    width: 210px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 70px;
+}
+.nav-collapse {
+	background-color: #0B1B2E;
+	float: left;
+}
+li.sub-menu {
+	list-style: none;
+}
+.active {
+	background-color: #6A0888;
+	color: white;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #946882 !important;
+  color: white !important;
+ }
+a {
+ 	text-decoration: none !important;
+ }
+.sidebar-menu {
+	margin: 0px;
+	padding: 10px;
+}
+/*Escribe aqui tu codigo */
+
+.page-header {
+	padding-left: 2%;
+}
+.main-video {
+	padding-left: 2%;
+}
+
+/*..............Background.Principal................*/
+.wrapper {
+	background-color: #E6E6E6;
+	padding-top: 70px;
+	margin: auto;
+}
+.box0 {
+	margin-top: 30px;
+	padding-top: 2%;
+}
+.box0:hover {
+	background-color: white;	
+	-webkit-box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+	-moz-box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+	box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+}
+.box0:hover .TextRed{
+	background-color: white;
+	display: block;
+
+}
+.box1:hover {
+	border-bottom: none;
+}
+.box1 {
+	border-bottom: 1px solid #A4A4A4;	
+}
+.TextGray {
+	color: #6E6E6E;
+}
+.TextRed {
+	color: red;
+	display: none;
+
+}
+.TextWhite {
+	color: white;
+}
+.divider {
+	/*border: 1px solid red;*/
+}
+.showback {
+	background-color: white;
+	padding: 2%;
+	margin-top: 3%;
+	-webkit-box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+	-moz-box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+	box-shadow: 1px 22px 19px -17px rgba(181,172,173,0.91);
+}
+.Prueba9 {
+	width: 70%;
+}
+.Prueba3 {
+	width: 30%;
+}
+/*<!-- ..................Panel.Extrema.Derecha....................... -->*/
+.BackWhite{
+	background-color: white;
+}
+h3.Morado2 {
+	padding: 3%;
+	color: white;
+	text-align: center;
+}
+.Morado2 {
+	background-color: #6A0888;
+}
+.IcoP1 {
+	font-size: 60px;
+	color: #6E6E6E;
+}
+.badge{
+	background-color: #0489B1 !important;
+}
+.thumb {
+	float: left;
+}
+.details {
+	display: inline-block;
+	width: 70%;
+	margin-left: 2%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.black-bg {
+    
+	}
+}
+  /*<!-- Inicio.De.Modal -->	*/
+ .modal-dialog {
+ 	margin-top: 90px;
+ }
+
+.form-login {
+width: 360px;
+background-color: white;
+margin: auto;
+
+border-radius: 10px;
+-webkit-box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+-moz-box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+box-shadow: 10px 51px 121px -200px rgba(255,255,255,1);
+}
+.form-login-heading {
+	background-color: #3BC3FF;
+	width: 100%;
+	color: white;
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.login-wrap {
+	padding: 6%;
+}
+.modal-header {
+margin-top: 30px !important;
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: none !important;
+}
